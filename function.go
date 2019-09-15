@@ -2,6 +2,8 @@ package c
 
 import "fmt"
 
+//go:generate ./genvers.sh
+
 func F(s string) string {
-	return fmt.Sprintf("C v0.0.0: %s", s)
+	return fmt.Sprintf("C %s: %s", Version, s)
 }
