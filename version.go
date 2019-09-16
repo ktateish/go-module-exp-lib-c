@@ -2,4 +2,4 @@
 
 package c
 
-var Version = "v1.1.0"
+var Version = "v1.2.0"
